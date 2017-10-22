@@ -1,6 +1,6 @@
 # challenge1.rb
 #
-# Following a command line options to invoke the functionality really quickly:
+# Following are the command line options to invoke the functionality really quickly:
 # If your data is in the default zips.json file located in the current directory, run this
 #   ruby -r './challenge1.rb' -e 'puts Challenge1.perform.to_s'
 
@@ -38,9 +38,9 @@ class Challenge1
 
   DEFAULT_SRC_FILE_SPEC = 'zips.json'.freeze
   LARGE_STATE_MIN_POPULATION = 10_000_000
-  STATE = 'state'
-  CITY = 'city'
-  POP = 'pop'
+  STATE = 'state'.freeze
+  CITY = 'city'.freeze
+  POP = 'pop'.freeze
 
   attr_accessor :source  # ruby array containing information for individual zip codes (see a sample element above)
 
