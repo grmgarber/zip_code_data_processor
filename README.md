@@ -18,3 +18,7 @@ Following are the command line options to invoke the functionality really quickl
 - irb> c = Challenge1.new
 - irb> c.source = myarr
 - irb> c.process_source_data  
+
+The code was tested with this ruby version on Linux Mint 18.2:
+- ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
+
